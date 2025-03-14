@@ -1,0 +1,144 @@
+<!DOCTYPE html><!--html en la version 5-->
+<html lang="es"><!--la raiz de la pagina web, lang es un atributo que indica el lenguaje -->
+    <head><!--head es la etiqueta de las configuraciones del navegador-->
+        <meta charset="UTF-8"><!--el atributo charset con el valor utf8 le indica la codificacion de los caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--etiqueta de responsive-->
+        <!--el title y el favicon son 2 etiquetas que ve el user-->
+        <title>Mushi | Cafeteria de autor</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <script src="https://kit.fontawesome.com/b632db0e2f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="./assets/img/logo_cafe.png" alt="es un paquete takeaway que representa un pedido del cafe al paso" >  
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href=".//pages/productos.html">Productos</a> </li>
+                    <li><a href=".//pages/nosotros.html">Nosotros</a></li>
+                    <li><a href=".//pages/sucursales.html">Nuestra sucursal</a></li>
+                    <li><a href=".//pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="seccionPrincipalIndex">
+                <h1 class="thin"">El arte del café, <div class="mayuscula negrita">servido a tu gusto</div></h1>
+                <p class="colorFuenteCeleste" class="colorFuenteDorado">Tu café favorito, todos los días</p>
+                <p>Encontra Mushi y tentate con nuestros sabores</p>
+                <a class="mayuscula boton" href="./pages/sucursales.html">Estamos aqui</a>
+                
+            </section>
+            <section class="seccionNuestrosProductosIndex">
+                <h2>Nuestros productos</h2>
+                <img src="./assets/img/cafe cumbal.png" alt="Producto: Cafe Cumbal"> 
+                <img src="./assets/img/cafe cumbal.png" alt="Producto: Cafe Cumbal">
+                <img src="./assets/img/cafe cumbal.png" alt="Producto: Cafe Cumbal">
+                <img src="./assets/img/cafe cumbal.png" alt="Producto: Cafe Cumbal">
+                <img src="./assets/img/cafe cumbal.png" alt="Producto: Cafe Cumbal">
+                <img src="./assets/img/cafe cumbal.png" alt="Producto: Cafe Cumbal">
+            </section>
+            
+            <section class="seccionCafePlatosIndex">
+                <div class="CafeExpertoIndex">
+                    <div><P>Aprendé a hacer un cafe como un experto</P>
+                        <h2>SECRETO DEL BARISTA</h2>
+                        <!--Enlace interno a otra pagina-->
+                        <a class="boton" href="./pages/nosotros.html#prepararCafe">VER</a>
+                    </div>
+                </div>
+                <div class="NuestrosPlatosIndex">
+                    <div><P>Hace tu pedido take away</P>
+                        <h2>NUESTROS PRODUCTOS</h2>
+                        <a class="boton" href="./pages/productos.html#nuestrosPlatos">VER</a>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="seccionSucursalesIndex">
+                <div><h2>SIEMPRE HAY UN</h2>
+                    <h2 class="colorDorado">TIENDA CERCA TUYO</h2>
+                    <P>Donde nos encontramos</P>
+                    <a class="boton" href="">INGRESAR</a></div>
+               
+            </section>
+
+            <section class="seccionClientesIndex">
+                <h2>Conoce las opiniones de nuestros clientes</h2>
+                <div>
+                    <img src="./assets/img/cliente4.png" alt="imagen de cliente">
+                    <h3>Romina Soria</h3>
+                    <p>Muy bien café, y una excelente atención</p>
+                </div>
+                <div>
+                    <img src="./assets/img/cliente3.png" alt="imagen de cliente">
+                    <h3>Cecilia Nenna</h3>
+                    <p>Excelente panaderia y un hermoso lugar</p>
+                </div>
+                <div>
+                    <img src="./assets/img/cliente2.png" alt="imagen de cliente">
+                    <h3>Leandro Manduca</h3>
+                    <p>La atencion increible, y las coockies unas delicias</p>
+                </div>
+                <div>
+                    <img src="./assets/img/cliente 1.png" alt="imagen de cliente">
+                    <h3>Horacio Ramirez</h3>
+                    <p>Excelente ubicación, y un buen café</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <img src="./assets/img/logo_cafe.png" alt="es un paquete takeaway que representa un pedido del cafe al paso">
+            <div>
+                <h3>Contenidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href=".//pages/productos.html">Productos</a> </li>
+                    <li><a href=".//pages/nosotros.html">Nosotros</a></li>
+                    <li><a href=".//pages/sucursales.html">Nuestra sucursal</a></li>
+                    <li><a href=".//pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Necesitás Ayuda</h3>
+                 <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href=".//pages/productos.html">Productos</a> </li>
+                    <li><a href=".//pages/nosotros.html">Nosotros</a></li>
+                    <li><a href=".//pages/sucursales.html">Nuestra sucursal</a></li>
+                    <li><a href=".//pages/contacto.html">Contacto</a></li>
+                 </ul>
+            </div>
+            <div>
+                <h3>SUSCRIBITE EN NUESTRA TIENDA</h3>
+                <form action="">
+                <input type="email" placeholder="Tu email" id="emailSuscripcion">
+                <input type="submit"
+                value="Suscribirme">
+                </form>
+            </div>
+            <div>
+                <h3>CONECTATE CON NOSOTROS</h3>
+                <a href=""target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href=""target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href=""target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <hr>
+            <div>
+                <p>© Copyright 2021 Mushi Cafe - Todos los derechos reservados.
+                Todos los logos, productos, marcas y nombres aqui utilizados son propiedad registrada.
+            </p>
+        </div>
+        
+        </footer>
+    
+    </body>
+</html>
